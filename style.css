@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for the navigation */
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* CSS for the header */
+#description {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* CSS for the image */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* CSS for the link */
+#link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* CSS for the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input,
+form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#check {
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for the warning message */
+#warning {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+
+/* CSS for additional sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li strong {
+    color: #007bff;
+}
+
+ul li p {
+    margin-top: 5px;
+}
+/* CSS for the footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    color: #555;
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Additional styling for social media icons */
+.social-media-links a:hover {
+    color: #0056b3;
+}
+/* CSS for the footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    color: #555;
+}
